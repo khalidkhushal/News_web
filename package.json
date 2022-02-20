@@ -1,0 +1,26 @@
+{
+    "name": "newsweb",
+    "version": "0.0.0",
+    "server": false,
+    "private": true,
+    "scripts": {
+        "start": "nodemon app.js",
+        "serve": "turbo devserver",
+        "test": "",
+        "build": "",
+        "postinstall": "turbo postinstall"
+    },
+    "dependencies": {
+        "axios": "^0.24.0",
+        "body-parser": "^1.19.1",
+        "dotenv": "^10.0.0",
+        "ejs": "^3.1.6",
+        "express": "^4.17.1",
+        "turbo360": "^1.8.69"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.2",
+        "rimraf": "^2.6.2"
+    },
+    "format": "vertex"
+}
